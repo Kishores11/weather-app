@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kishore Weather App</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div>
+            <h1 id="heading">Kishore Weather App</h1>
+            <br/>
+            <input type="text" name="" placeholder="search city" id="city-input">
+            <br/>
+            <input type="button" onclick="main()" value="search">
+            <br/>
+        </div>
+        <div class="result">
+           <h2>Weather in <span id="city-name">-----</span></h2>
+            <div>
+                <h1 id="weather-type">--------</h1>
+                <img src="" alt="" id="icon">
+                <div class="items">
+                    <h3>Temp: <span id="temp">-----</span><span> °C</span></h3>
+                    <h3>Min Temp: <span id="min-temp">-----</span><span> °C</span></h3>
+                    <h3>Max Temp: <span id="max-temp">-----</span><span> °C</span></h3>
+                    <h3>Humidity: <span id="humidity">-----</span><span> %</span></h3>
+                    <h3>Wind Speed: <span id="wind-speed">-----</span><span> mph</span></h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="iconsContainer">
+            <h1 id="upcoming">Upcoming Forecast</h1>
+            <div class = "icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="https://static.thenounproject.com/png/1576789-200.png" class="imgClass" id="img1"></div>
+                <p class="temp-type" id="day1type">.....</p>
+                <p class="temp-value" id="day1temp">.....</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="https://static.thenounproject.com/png/1576789-200.png" class="imgClass" id="img2"></div>
+                <p class="temp-type" id="day2type">.....</p>
+                <p class="temp-value" id="day2temp">.....</p>
+
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="https://static.thenounproject.com/png/1576789-200.png" class="imgClass" id="img3"></div>
+                <p class="temp-type" id="day3type">.....</p>
+                <p class="temp-value" id="day3temp">.....</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="https://static.thenounproject.com/png/1576789-200.png" class="imgClass" id="img4"></div>
+                <p class="temp-type" id="day4type">.....</p>
+                <p class="temp-value" id="day4temp">.....</p>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

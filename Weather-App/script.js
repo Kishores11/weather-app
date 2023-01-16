@@ -74,7 +74,7 @@ let API_KEY = "0a682bf71f39adade06e5fc4dcb9f9e2";
 }
 
 
-//Getting and displaying the text for the upcoming five days of the week
+//Getting and displaying the text for the upcoming four days of the week
 var d = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",];
 
